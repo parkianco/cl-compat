@@ -2,6 +2,9 @@
 ;;;; Copyright (c) 2024-2026 Parkian Company LLC
 ;;;; License: BSD-3-Clause
 
+(eval-when (:compile-toplevel :load-toplevel :execute)
+  (require :sb-bsd-sockets))
+
 (defpackage #:cl-compat
   (:use #:cl)
   (:export
