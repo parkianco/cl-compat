@@ -1,3 +1,6 @@
+;; Copyright (c) 2024-2026 Parkian Company LLC. All rights reserved.
+;; SPDX-License-Identifier: BSD-3-Clause
+
 ;;;; utf8.lisp - UTF-8 encoding/decoding
 ;;;; Copyright (c) 2024-2026 Parkian Company LLC
 ;;;; License: BSD-3-Clause
