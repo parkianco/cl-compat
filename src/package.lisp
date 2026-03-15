@@ -11,7 +11,11 @@
 (defpackage #:cl-compat
   (:use #:cl)
   (:export
-   #:with-compat-timing
+   #:identity-list
+   #:flatten
+   #:map-keys
+   #:now-timestamp
+#:with-compat-timing
    #:compat-batch-process
    #:compat-health-check;; Feature detection
    #:when-feature
