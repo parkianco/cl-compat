@@ -11,6 +11,9 @@
 (defpackage #:cl-compat
   (:use #:cl)
   (:export
+   #:compat-context
+   #:compat-execute
+   #:initialize-compat
    #:memoize-function
    #:deep-copy-list
    #:group-by-count
